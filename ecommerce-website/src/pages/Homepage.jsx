@@ -1,9 +1,11 @@
 import { Navbar } from "../components/Navbar";
 import { Footer } from "../components/Footer";
 
-export function Homepage(){
+export function HomePage(){
   return (
     <>
+      <title>Ecommerce Website</title>
+
       <Navbar/>
 
       <div className="container-fluid">
