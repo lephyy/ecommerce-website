@@ -1,5 +1,7 @@
+import { Link } from "react-router";
 import { Navbar } from "../components/Navbar";
 import { Footer } from "../components/Footer";
+
 
 export function CheckoutPage(){
   return(
@@ -69,7 +71,7 @@ export function CheckoutPage(){
                   <span>Total:</span>
                   <span>$65.50</span>
                 </h5>
-                <a href="#" className="btn btn-primary w-100 mt-3">Checkout</a>
+                <Link to="/checkout" className="btn btn-primary w-100 mt-3">Checkout</Link>
               </div>
             </div>
           </div>

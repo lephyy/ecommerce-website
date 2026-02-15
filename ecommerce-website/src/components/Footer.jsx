@@ -1,3 +1,5 @@
+import { Link } from "react-router";
+
 export function Footer(){
   return(
     <footer className="bg-dark text-white py-5 mt-5">
@@ -12,19 +14,19 @@ export function Footer(){
         <div className="col-md-3 mb-4">
           <h5 className="font-weight-bold mb-3">Quick Links</h5>
           <ul className="list-unstyled">
-            <li><a href="#" className="text-white text-decoration-none">Home</a></li>
-            <li><a href="#" className="text-white text-decoration-none">Shop</a></li>
-            <li><a href="#" className="text-white text-decoration-none">About Us</a></li>
-            <li><a href="#" className="text-white text-decoration-none">Contact Us</a></li>
+            <li><Link to="/" className="text-white text-decoration-none">Home</Link></li>
+            <li><Link to="/product" className="text-white text-decoration-none">Shop</Link></li>
+            <li><Link to="/about-us" className="text-white text-decoration-none">About Us</Link></li>
+            <li><Link to="/contact-us" className="text-white text-decoration-none">Contact Us</Link></li>
           </ul>
         </div>
         <div className="col-md-3 mb-4">
           <h5 className="font-weight-bold mb-3">Follow Us</h5>
           <ul className="list-unstyled">
-            <li><a href="#" className="text-white text-decoration-none">Facebook</a></li>
-            <li><a href="#" className="text-white text-decoration-none">Instagram</a></li>
-            <li><a href="#" className="text-white text-decoration-none">Tiktok</a></li>
-            <li><a href="#" className="text-white text-decoration-none">Telegram</a></li>
+            <li><Link to="/facebook" className="text-white text-decoration-none">Facebook</Link></li>
+            <li><Link to="/instagram" className="text-white text-decoration-none">Instagram</Link></li>
+            <li><Link to="/tiktok" className="text-white text-decoration-none">Tiktok</Link></li>
+            <li><Link to="/telegram" className="text-white text-decoration-none">Telegram</Link></li>
           </ul>
         </div>
         <div className="col-md-3 mb-4">

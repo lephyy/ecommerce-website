@@ -1,3 +1,4 @@
+import { Link } from "react-router";
 import { Footer } from "../components/Footer";
 import { Navbar } from "../components/Navbar";
 
@@ -40,7 +41,7 @@ export function ProductDetailPage(){
                   <li><strong>Interior Color: Black</strong></li>
                   <li><strong>Scale: 1:64</strong></li>
                 </ul>
-                <a href="#" className="btn btn-primary mt-3">Add to cart</a>
+                <Link to="/cart" className="btn btn-primary mt-3">Add to cart</Link>
               </div>
           </div>
         </div>
@@ -60,7 +61,7 @@ export function ProductDetailPage(){
               <div className="card-body bg-light text-center">
                 <h6 className="card-title">Hot Wheels Elite 64 Mod Shop '94 Land Rover Discovery</h6>
                 <p className="card-text">$30.00</p>
-                <a href="#" className="btn btn-primary">Add to cart</a>
+                <Link to="/cart" className="btn btn-primary">Add to cart</Link>
               </div>
             </div>
           </div>
@@ -71,7 +72,7 @@ export function ProductDetailPage(){
               <div className="card-body bg-light text-center">
                 <h6 className="card-title">Hot Wheels Elite 64 1990 BMW 318i Touring</h6>
                 <p className="card-text">$20.00</p>
-                <a href="#" className="btn btn-primary">Add to cart</a>
+                <Link to="/cart" className="btn btn-primary">Add to cart</Link>
               </div>
             </div>
           </div>
@@ -82,7 +83,7 @@ export function ProductDetailPage(){
               <div className="card-body bg-light text-center">
                 <h6 className="card-title">Hot Wheels x Daniel Arsham Eroded Ford Mustang</h6>
                 <p className="card-text">$70.00</p>
-                <a href="#" className="btn btn-primary">Add to cart</a>
+                <Link to="/cart" className="btn btn-primary">Add to cart</Link>
               </div>
             </div>
           </div>
@@ -93,7 +94,7 @@ export function ProductDetailPage(){
               <div className="card-body bg-light text-center">
                 <h6 className="card-title">Hot Wheels Elite 64 Series Modified ’69 Ford Mustang</h6>
                 <p className="card-text">$20.00</p>
-                <a href="#" className="btn btn-primary">Add to cart</a>
+                <Link to="/cart" className="btn btn-primary">Add to cart</Link>
               </div>
             </div>
           </div>

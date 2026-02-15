@@ -1,3 +1,4 @@
+import { Link } from "react-router";
 import { Footer } from "../components/Footer";
 import { Navbar } from "../components/Navbar";
 
@@ -21,7 +22,7 @@ return(
           <div className="card-body bg-light">
             <h6 className="card-title">Hot Wheels Elite 64 Mod Shop '94 Land Rover Discovery</h6>
             <p className="card-text">$30.00</p>
-            <a href="/product-detail" className="btn btn-primary">Add to cart</a>
+            <Link to="/product-detail" className="btn btn-primary">Add to cart</Link>
           </div>
         </div>
       </div>
@@ -32,7 +33,7 @@ return(
           <div className="card-body bg-light">
             <h6 className="card-title">Hot Wheels Elite 64 1990 BMW 318i Touring</h6>
             <p className="card-text">$20.00</p>
-            <a href="/product-detail" className="btn btn-primary">Add to cart</a>
+            <Link to="/product-detail" className="btn btn-primary">Add to cart</Link>
           </div>
         </div>
       </div>
@@ -43,7 +44,7 @@ return(
           <div className="card-body bg-light">
             <h6 className="card-title">Hot Wheels Elite 64 Pandem Datsun 280ZX</h6>
             <p className="card-text">$20.00</p>
-            <a href="/product-detail" className="btn btn-primary">Add to cart</a>
+            <Link to="/product-detail" className="btn btn-primary">Add to cart</Link>
           </div>
         </div>
       </div>
@@ -54,7 +55,7 @@ return(
           <div className="card-body bg-light">
             <h6 className="card-title">Hot Wheels Elite 64 Series Modified ’69 Ford Mustang</h6>
             <p className="card-text">$20.00</p>
-            <a href="/product-detail" className="btn btn-primary">Add to cart</a>
+            <Link to="/product-detail" className="btn btn-primary">Add to cart</Link>
           </div>
         </div>
       </div>
@@ -64,7 +65,7 @@ return(
           <div className="card-body bg-light">
             <h6 className="card-title">RLC Exclusive 2021 Pagani Huayra R</h6>
             <p className="card-text">$30.00</p>
-            <a href="/product-detail" className="btn btn-primary">Add to cart</a>
+            <Link to="/product-detail" className="btn btn-primary">Add to cart</Link>
           </div>
         </div>
       </div>
@@ -74,7 +75,7 @@ return(
           <div className="card-body bg-light">
             <h6 className="card-title">Hot Wheels Collectors Hot Wheels Formula 1 Vehicle</h6>
             <p className="card-text">$25.00</p>
-            <a href="/product-detail" className="btn btn-primary">Add to cart</a>
+            <Link to="/product-detail" className="btn btn-primary">Add to cart</Link>
           </div>
         </div>
       </div>
@@ -84,7 +85,7 @@ return(
           <div className="card-body bg-light">
             <h6 className="card-title">Hot Wheels x Daniel Arsham Eroded Ford Mustang</h6>
             <p className="card-text">$70.00</p>
-            <a href="/product-detail" className="btn btn-primary">Add to cart</a>
+            <Link to="/product-detail" className="btn btn-primary">Add to cart</Link>
           </div>
         </div>
       </div>
@@ -94,7 +95,7 @@ return(
           <div className="card-body bg-light">
             <h6 className="card-title">Hot Wheels Premium Car Culture 2-Pack '94 Nissan Primera & Nissian R390 GTI</h6>
             <p className="card-text">$13.00</p>
-            <a href="/product-detail" className="btn btn-primary">Add to cart</a>
+            <Link to="/product-detail" className="btn btn-primary">Add to cart</Link>
           </div>
         </div>
       </div>
@@ -104,7 +105,7 @@ return(
           <div className="card-body bg-light">
             <h6 className="card-title">Hot Wheels Boulevard Lamborghini Countach LPI 800-4</h6>
             <p className="card-text">$6.50</p>
-            <a href="/product-detail" className="btn btn-primary">Add to cart</a>
+            <Link to="/product-detail" className="btn btn-primary">Add to cart</Link>
           </div>
         </div>
       </div>
@@ -114,7 +115,7 @@ return(
           <div className="card-body bg-light">
             <h6 className="card-title">Matchbox Collectors Mercedes-Benz SLR McLaren</h6>
             <p className="card-text">$25.00</p>
-            <a href="/product-detail" className="btn btn-primary">Add to cart</a>
+            <Link to="/product-detail" className="btn btn-primary">Add to cart</Link>
           </div>
         </div>
       </div>
@@ -124,7 +125,7 @@ return(
           <div className="card-body bg-light">
             <h6 className="card-title">Matchbox Collectors Matchbox 1993 BMW E30 M3</h6>
             <p className="card-text">$25.00</p>
-            <a href="/product-detail" className="btn btn-primary">Add to cart</a>
+            <Link to="/product-detail" className="btn btn-primary">Add to cart</Link>
           </div>
         </div>
       </div>
@@ -134,7 +135,7 @@ return(
           <div className="card-body bg-light">
             <h6 className="card-title">Hot Wheels Car Culture Circuit Legends BMW 320 Group 5</h6>
             <p className="card-text">$6.50</p>
-            <a href="/product-detail" className="btn btn-primary">Add to cart</a>
+            <Link to="/product-detail" className="btn btn-primary">Add to cart</Link>
           </div>
         </div>
       </div>

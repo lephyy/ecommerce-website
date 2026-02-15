@@ -1,5 +1,8 @@
+import { Link } from "react-router";
 import { Footer } from "../components/Footer";
 import { Navbar } from "../components/Navbar";
+
+
 export function AboutUsPage(){
   return(
     <>
@@ -35,7 +38,7 @@ export function AboutUsPage(){
                 <p>We invite you to browse our shop, follow us on social media, and become part of the growing Hot Wheels community. Connect with fellow collectors, share your passion, and stay up to date with the latest releases and events. Let’s celebrate the love for Hot Wheels together!</p>
 
                 <div className="text-center mt-4">
-                    <a href="/product" className="btn btn-primary btn-lg">Start Shopping Now</a>
+                    <Link to="/product" className="btn btn-primary btn-lg">Start Shopping Now</Link>
                 </div>
             </div>
         </div>

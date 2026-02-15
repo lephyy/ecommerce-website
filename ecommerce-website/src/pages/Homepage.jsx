@@ -1,3 +1,4 @@
+import { Link } from "react-router";
 import { Navbar } from "../components/Navbar";
 import { Footer } from "../components/Footer";
 
@@ -15,7 +16,7 @@ export function HomePage(){
             <div style={{paddingLeft: '70px'}}>
               <h1 className="card-title">Welcome to Our Shop!</h1>
               <p className="card-text">Discover the latest products</p>
-              <a href="/product" className="btn btn-primary">Shop Now</a>
+              <Link to="/product" className="btn btn-primary">Shop Now</Link>
             </div>
           </div>
         </div>
@@ -147,7 +148,7 @@ export function HomePage(){
               <div className="card-body bg-light">
                 <h6 className="card-title">Hot Wheels Elite 64 Mod Shop '94 Land Rover Discovery</h6>
                 <p className="card-text">$30.00</p>
-                <a href="/product-detail" className="btn btn-primary">Add to cart</a>
+                <Link to="/product-detail" className="btn btn-primary">Add to cart</Link>
               </div>
             </div>
           </div>
@@ -158,7 +159,7 @@ export function HomePage(){
               <div className="card-body bg-light">
                 <h6 className="card-title">Hot Wheels Elite 64 1990 BMW 318i Touring</h6>
                 <p className="card-text">$20.00</p>
-                <a href="/product-detail" className="btn btn-primary">Add to cart</a>
+                <Link to="/product-detail" className="btn btn-primary">Add to cart</Link>
               </div>
             </div>
           </div>
@@ -169,7 +170,7 @@ export function HomePage(){
               <div className="card-body bg-light">
                 <h6 className="card-title">Hot Wheels Elite 64 Pandem Datsun 280ZX</h6>
                 <p className="card-text">$20.00</p>
-                <a href="/product-detail" className="btn btn-primary">Add to cart</a>
+                <Link to="/product-detail" className="btn btn-primary">Add to cart</Link>
               </div>
             </div>
           </div>
@@ -180,7 +181,7 @@ export function HomePage(){
               <div className="card-body bg-light">
                 <h6 className="card-title">Hot Wheels Elite 64 Series Modified ’69 Ford Mustang</h6>
                 <p className="card-text">$20.00</p>
-                <a href="/product-detail" className="btn btn-primary">Add to cart</a>
+                <Link to="/product-detail" className="btn btn-primary">Add to cart</Link>
               </div>
             </div>
           </div>
