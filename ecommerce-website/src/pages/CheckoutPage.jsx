@@ -23,7 +23,7 @@ export function CheckoutPage(){
                     <h5 className="card-title">Hot Wheels Elite 64 Mod Shop '94 Land Rover Discovery</h5>
                     <p className="card-text">$30.00</p>
                     <div className="d-flex align-items-center">
-                      <input type="number" className="form-control w-25 me-3" value="1" min="1"/>
+                      {/* <input type="number" className="form-control w-25 me-3" value="1" min="1"/> */}
                       <button className="btn btn-danger">Remove</button>
                     </div>
                   </div>
@@ -41,7 +41,7 @@ export function CheckoutPage(){
                     <h5 className="card-title">RLC Exclusive 2021 Pagani Huayra R</h5>
                     <p className="card-text">$30.00</p>
                     <div className="d-flex align-items-center">
-                      <input type="number" className="form-control w-25 me-3" value="1" min="1"/>
+                      {/* <input type="number" className="form-control w-25 me-3" value="1" min="1"/> */}
                       <button className="btn btn-danger">Remove</button>
                     </div>
                   </div>

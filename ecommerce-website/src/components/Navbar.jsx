@@ -22,7 +22,7 @@ export function Navbar(){
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
         <ul className="navbar-nav ms-auto mb-2 mb-lg-0 d-flex align-items-center">
           <li className="nav-item">
-            <a className="nav-link active sand-semibold" aria-current="page" href="#">Home</a>
+            <a className="nav-link active sand-semibold" aria-current="page" href="/">Home</a>
           </li>
           <li className="nav-item">
             <a className="nav-link" aria-current="page" href="/product">Products</a>
@@ -31,7 +31,7 @@ export function Navbar(){
             <a className="nav-link" aria-current="page" href="/about-us">About Us</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" aria-current="page" href="/contact-us.html">Contact Us</a>
+            <a className="nav-link" aria-current="page" href="/contact-us">Contact Us</a>
           </li>
         </ul>
       </div>
