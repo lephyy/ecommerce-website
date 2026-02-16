@@ -54,3 +54,39 @@ h5 .card-title {
 	color: black;
 	transition: 0.2s;
   }
+
+.quantity-wrapper {
+  display: inline-flex;
+  align-items: center;
+  /* border: 1px solid #dc3545; */
+  border-radius: 8px;
+  overflow: hidden;
+  background: #fff;
+}
+
+.qty-value {
+  width: 45px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 16px;
+  color: #333;
+  user-select: none;
+}
+
+.btnCart{
+  color: white;
+  border: none;
+  border-radius: 18px;
+  background-color: red;
+  transition: 0.3s;
+  font-family: "semi-bold";
+  margin-top: 20px;
+  display:block;
+  padding: 12px 0;
+  width: 40%;
+}
+.btnCart:hover {
+  background-color: #98989c;
+  color: black;
+  transition: 0.2s;
+}

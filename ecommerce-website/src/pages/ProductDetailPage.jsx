@@ -1,8 +1,20 @@
 import { Link } from "react-router";
 import { Footer } from "../components/Footer";
 import { Navbar } from "../components/Navbar";
+import { useState } from "react";
 
 export function ProductDetailPage(){
+
+  const [quantity,setQuantity] = useState(1);
+
+  const increaseQty = () => {
+    setQuantity(prev => prev + 1);
+  };
+
+  const decreaseQty = () => {
+    setQuantity(prev => (prev > 1 ? prev - 1 : 0)); // prevent negative
+  };
+
   return(
     <>
       <title>Product Detail</title>
@@ -41,7 +53,18 @@ export function ProductDetailPage(){
                   <li><strong>Interior Color: Black</strong></li>
                   <li><strong>Scale: 1:64</strong></li>
                 </ul>
-                <Link to="/cart" className="btn btn-primary mt-3">Add to cart</Link>
+                <div className="quantity-wrapper">
+                  <button className="btn btn-danger decrease" onClick={decreaseQty} disabled={quantity === 1}>
+                    <i className="fa-solid fa-minus"></i>
+                  </button>
+
+                  <span className="qty-value">{quantity}</span>
+
+                  <button className="btn btn-danger increase" onClick={increaseQty}>
+                    <i className="fa-solid fa-plus"></i>
+                  </button>
+                </div>
+                <Link to="/cart" className="btn btnCart">Add to cart</Link>
               </div>
           </div>
         </div>
@@ -61,7 +84,7 @@ export function ProductDetailPage(){
               <div className="card-body bg-light text-center">
                 <h6 className="card-title">Hot Wheels Elite 64 Mod Shop '94 Land Rover Discovery</h6>
                 <p className="card-text">$30.00</p>
-                <Link to="/cart" className="btn btn-primary">Add to cart</Link>
+                <Link to="/product-detail" className="btn btn-primary">Add to cart</Link>
               </div>
             </div>
           </div>
@@ -72,7 +95,7 @@ export function ProductDetailPage(){
               <div className="card-body bg-light text-center">
                 <h6 className="card-title">Hot Wheels Elite 64 1990 BMW 318i Touring</h6>
                 <p className="card-text">$20.00</p>
-                <Link to="/cart" className="btn btn-primary">Add to cart</Link>
+                <Link to="/product-detail" className="btn btn-primary">Add to cart</Link>
               </div>
             </div>
           </div>
@@ -83,7 +106,7 @@ export function ProductDetailPage(){
               <div className="card-body bg-light text-center">
                 <h6 className="card-title">Hot Wheels x Daniel Arsham Eroded Ford Mustang</h6>
                 <p className="card-text">$70.00</p>
-                <Link to="/cart" className="btn btn-primary">Add to cart</Link>
+                <Link to="/product-detail" className="btn btn-primary">Add to cart</Link>
               </div>
             </div>
           </div>
@@ -94,7 +117,7 @@ export function ProductDetailPage(){
               <div className="card-body bg-light text-center">
                 <h6 className="card-title">Hot Wheels Elite 64 Series Modified ’69 Ford Mustang</h6>
                 <p className="card-text">$20.00</p>
-                <Link to="/cart" className="btn btn-primary">Add to cart</Link>
+                <Link to="/product-detail" className="btn btn-primary">Add to cart</Link>
               </div>
             </div>
           </div>
